@@ -1,0 +1,4 @@
+[submodule "api/wataame-rpc"]
+	path = api/wataame-rpc
+	url = https://github.com/hys-neko-lab/wataame-rpc.git
+	branch = main

@@ -1,0 +1,1 @@
+python3 -m grpc_tools.protoc -I wataame-rpc/network --python_out=. --grpc_python_out=. network.proto

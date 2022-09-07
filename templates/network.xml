@@ -1,0 +1,16 @@
+<network>
+  <name>$name</name>
+  <uuid>$uuid</uuid>
+  <forward mode='nat'>
+    <nat>
+      <port start='1024' end='65535'/>
+    </nat>
+  </forward>
+  <bridge name='br$name' stp='on' delay='0'/>
+  <mac address='$mac'/>
+  <ip address='$ipaddr' netmask='$netmask'>
+    <dhcp>
+      <range start='$ipstart' end='$ipend'/>
+    </dhcp>
+  </ip>
+</network>
